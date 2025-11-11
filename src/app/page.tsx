@@ -87,7 +87,7 @@ export default function Home() {
               <div className="px-2 pb-1">
                 <div className="overflow-hidden rounded-lg">                  <iframe
                   style={{ borderRadius: "12px" }}
-                  src="https://open.spotify.com/embed/playlist/3dnp38WpvYW4f3EWdoDFej?utm_source=generator&theme=0"
+                  src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM?utm_source=generator&theme=0"
                   width="100%"
                   height="152"
                   frameBorder="0"
@@ -426,7 +426,7 @@ export default function Home() {
                 </a>
                 {" or "}
                 <a
-                  href="https://www.linkedin.com/in/myself-sandip/"
+                  href="https://www.linkedin.com/in/myselfsandip/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
@@ -476,7 +476,7 @@ const projects = [
   {
     title: "Meet AI",
     description:
-      "AI-Powered Video Meeting SaaS",
+      "AI-powered video meeting SaaS platform featuring real-time AI agents for meeting assistance, dynamic summaries, transcripts, playback, and AI Q&A. Supports Google OAuth and email login with Passport.js. Built with scalable React frontend, Express backend, Drizzle ORM, and Stream.io SDKs. Deployed on AWS infrastructure.",
     link: "https://github.com/myselfsandip/meet-ai",
     github: "https://github.com/myselfsandip/meet-ai",
     technologies: [
@@ -490,26 +490,27 @@ const projects = [
       "Drizzle ORM",
       "Passport.js",
       "Stream.io",
-      "OpenAI "
+      "OpenAI"
     ]
   },
   {
     title: "Realtime Chat App",
     description:
-      "",
-    link: "https://github.com/myselfsandip/realtime-chat-app",
-    github: "https://github.com/myselfsandip/realtime-chat-app",
+      "Microservices-based real-time chat application with Next.js frontend and Express backend. Features low-latency messaging with Socket.io, RabbitMQ for message queuing, and Redis Cache PubSub for fast updates. Fully deployed on AWS cloud infrastructure.",
+    link: "https://github.com/myselfsandip/microservice-chat-app",
+    github: "https://github.com/myselfsandip/microservice-chat-app",
     technologies: [
-      "React",
-      "JavaScript",
+      "Next.js",
       "Tailwind CSS",
-      "Daisy UI",
       "Socket.io",
       "Express.js",
+      "RabbitMQ",
+      "Redis"
     ]
-  },
-
+  }
 ];
+
+
 
 const experience = [
   {
@@ -524,7 +525,7 @@ const experience = [
       "Bootstrap",
       "Jquery",
       "REST API",
-      "MongoDB",
+      "Mysql",
     ],
   },
 

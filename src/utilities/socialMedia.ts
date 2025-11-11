@@ -13,7 +13,7 @@ const socialMediaLinks = [
   },
   {
     name: "linkedin",
-    link: "https://www.linkedin.com/in/myself-sandip/",
+    link: "https://www.linkedin.com/in/myselfsandip/",
   },
   {
     name: "instagram",

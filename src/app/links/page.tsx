@@ -97,7 +97,7 @@ const socialLinks = [
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/myself-sandip/",
+    url: "https://www.linkedin.com/in/myselfsandip/",
   },
   {
     name: "Instagram",
