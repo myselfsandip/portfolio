@@ -474,10 +474,41 @@ export default function Home() {
 
 const projects = [
   {
+    title: "Realtime Chat App",
+    description:
+      "Microservices-based real-time chat application with Next.js frontend and Express backend. Features low-latency messaging with Socket.io, RabbitMQ for message queuing, and Redis Cache for fast updates. Fully deployed on AWS cloud infrastructure.",
+    link: "https://github.com/myselfsandip/microservice-chat-app",
+    github: "https://github.com/myselfsandip/microservice-chat-app",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "Socket.io",
+      "Express.js",
+      "RabbitMQ",
+      "Redis"
+    ]
+  },
+  {
+    title: "Invosmart",
+    description:
+      "A multi-tenant business finance platform to manage invoicing, track payments and monitor financial analytics. Built with Next.js 16 (App Router), tRPC for end-to-end type-safe APIs, Drizzle ORM with PostgreSQL . Implemented secure authentication using Better Auth and deployed the platform on Vercel for high availability and performance",
+    link: "https://invosmart-pi.vercel.app",
+    github: "https://github.com/myselfsandip/invosmart",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "TRPC",
+      "Tanstack Query",
+      "Better Auth",
+      "Drizzle ORM",
+    ]
+  },
+  {
     title: "Meet AI",
     description:
       "AI-powered video meeting SaaS platform featuring real-time AI agents for meeting assistance, dynamic summaries, transcripts, playback, and AI Q&A. Supports Google OAuth and email login with Passport.js. Built with scalable React frontend, Express backend, Drizzle ORM, and Stream.io SDKs. Deployed on AWS infrastructure.",
-    link: "https://github.com/myselfsandip/meet-ai",
+    link: "https://meet-ai-lac.vercel.app",
     github: "https://github.com/myselfsandip/meet-ai",
     technologies: [
       "React",
@@ -494,20 +525,19 @@ const projects = [
     ]
   },
   {
-    title: "Realtime Chat App",
+    title: "Web Scraper Pro",
     description:
-      "Microservices-based real-time chat application with Next.js frontend and Express backend. Features low-latency messaging with Socket.io, RabbitMQ for message queuing, and Redis Cache PubSub for fast updates. Fully deployed on AWS cloud infrastructure.",
-    link: "https://github.com/myselfsandip/microservice-chat-app",
-    github: "https://github.com/myselfsandip/microservice-chat-app",
+      "Next.js web scraping tool with server-side API routes using Cheerio for HTML parsing. Extracted structured data (headings, tables, links, images) with multi-format export (JSON).",
+    link: "https://web-scraper-pro-orcin.vercel.app",
+    github: "https://github.com/myselfsandip/web-scraper-pro",
     technologies: [
       "Next.js",
+      "TypeScript",
       "Tailwind CSS",
-      "Socket.io",
-      "Express.js",
-      "RabbitMQ",
-      "Redis"
+      "Shadcn UI",
     ]
-  }
+  },
+
 ];
 
 
