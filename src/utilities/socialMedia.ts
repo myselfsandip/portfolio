@@ -15,10 +15,6 @@ const socialMediaLinks = [
     name: "linkedin",
     link: "https://www.linkedin.com/in/myselfsandip/",
   },
-  {
-    name: "instagram",
-    link: "https://www.instagram.com/myself_dx_raj/",
-  },
 ];
 
 export default socialMediaLinks;
