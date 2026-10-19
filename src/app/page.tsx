@@ -51,7 +51,7 @@ const projects: Project[] = [
       "Upload a PDF and chat with it. A 5-stage async pipeline (parse, chunk, embed, index, search) built on LangChain and Qdrant. PDF processing is decoupled through a BullMQ worker on Redis, returning HTTP 202 immediately while status is tracked in MongoDB. Retrieval is document-scoped with a 0.7 similarity threshold to drop low-relevance context before Gemini generates the answer, streamed over SSE with source page citations.",
     // TODO: add your AskPDF repo / live URL here
     github: "https://github.com/myselfsandip/ask-pdf",
-    link: undefined,
+    link: "https://ask-pdf-nu.vercel.app",
     technologies: [
       "Node.js",
       "Express.js",
